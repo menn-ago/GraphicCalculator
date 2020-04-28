@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index_css.css">
+    <title>Calcolatrice grafica</title>
+</head>
+<body>
+
+<script src="index_js.js"></script>
+<center>
+<br><br><br>
+<h1 class="titolo">Calcolatrice grafica</h1>
+<br><br><br><br><br>
+<div id="calcolatrice">
+<input type="text" readonly="text" id="risultato" value="0">
+<table id="calctab">
+<tr class="t1">
+    <td><input type="button" onClick="setA7();" id="7" value="7"></td>
+    <td><input type="button" onClick="setA8();" id="9" value="8"></td>
+    <td><input type="button" onClick="setA9();" id="8" value="9"></td>
+    <td><input type="button" onClick="setO1();" id="+" value="+"></td>
+</tr>
+<tr>
+    <td><input type="button" onClick="setA4();" id="4" value="4"></td>
+    <td><input type="button" onClick="setA5();" id="5" value="5"></td>
+    <td><input type="button" onClick="setA6();" id="6" value="6"></td>
+    <td><input type="button" onClick="setO2();" id="-" value="-"></td>
+</tr>
+<tr>
+    <td><input type="button" onClick="setA1();" id="1" value="1"></td>
+    <td><input type="button" onClick="setA2();" id="2" value="2"></td>
+    <td><input type="button" onClick="setA3();" id="3" value="3"></td>
+    <td><input type="button" onClick="setO3();" id="*" value="*"></td>
+</tr>
+<tr>
+    <td><input type="button" onClick="Delete();" id="C" value="C"></td>
+    <td><input type="button" onClick="setA0();" id="0" value="0"></td>
+    <td><input type="button" value="=" onclick="Update();"></td>
+    <td><input type="button" onClick="setO4();" id="/" value="/"></td>    
+</tr>
+<tr>
+    <td><input type="button" onClick="Comma();" id="," value=","></td>
+</tr>
+</table>
+</div>
+</center>
+
+</body>
+</html>
